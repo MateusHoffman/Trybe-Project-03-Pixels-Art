@@ -1,0 +1,104 @@
+#title {
+  font-family: -apple-system, Roboto, Oxygen, Ubuntu, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.86);
+  min-width: 400px;
+  max-width: 775px;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px 0 black;
+}
+
+#palette-container {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+  min-width: 400px;
+  max-width: 775px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px 10px 20px;
+  box-shadow: 5px 5px 10px 0 black;
+}
+
+#color-palette {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0;
+  margin: 10px;
+}
+
+.color {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+#board-container {
+  position: relative;
+  z-index: 1;
+}
+
+#pixel-board {
+  margin: 10px auto;
+  display: table;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 0 black;
+}
+
+.tr {
+  display: table-row;
+}
+
+.td {
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+#clear-board {
+  margin: 0 30px;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 800;
+  font-family: -apple-system, Roboto, Oxygen, Ubuntu, Helvetica, sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 7px 15px;
+  margin: 0 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+#board-size {
+  padding: 7px 0 7px 15px;
+  border-radius: 15px;
+}
+
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+/*
+Referências consultadas:
+https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity-pt
+*/
