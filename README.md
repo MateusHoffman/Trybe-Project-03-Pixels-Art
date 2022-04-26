@@ -1,6 +1,6 @@
 # 💚💚 Trybe-Project-03-Pixels-Art 💚💚
 
-Project responsible for presenting my skills with HTML, CSS and JavaScript
+Project responsible for presenting my skills with HTML, CSS and JavaScript 
 
 # Access the project:
 ### https://mateushoffman.github.io/Trybe-Project-03-Pixels-Art
