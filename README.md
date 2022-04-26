@@ -1,5 +1,4 @@
-# 💚💚 Trybe-Project-03-Pixels-Art
- 💚💚
+# 💚💚 Trybe-Project-03-Pixels-Art 💚💚
 
 Project responsible for presenting my skills with HTML, CSS and JavaScript
 
