@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+/* ======================================================== */
 #title {
-  font-family: -apple-system, Roboto, Oxygen, Ubuntu, Helvetica, sans-serif;
-  font-size: 50px;
-  font-weight: 900;
+  font-family: 'Oleo Script', cursive;
+  font-size: 3.5vw;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -14,6 +16,7 @@
   box-shadow: 5px 5px 10px 0 black;
 }
 
+/* ======================================================== */
 #palette-container {
   text-align: center;
   position: relative;
@@ -40,8 +43,16 @@
   height: 40px;
   margin: 10px;
   border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
+.color:hover{
+  box-shadow: 0 0 10px 5px red;
+}
+
+/* ======================================================== */
 #board-container {
   position: relative;
   z-index: 1;
@@ -52,7 +63,7 @@
   display: table;
   padding: 20px;
   border-radius: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.86);
   box-shadow: 5px 5px 10px 0 black;
 }
 

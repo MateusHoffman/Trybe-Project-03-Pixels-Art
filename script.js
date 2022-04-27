@@ -11,7 +11,9 @@ function generateRandomColor() {
 function selectColor(event) {
   const selectedColor = document.querySelector('.selected');
   selectedColor.classList.remove('selected');
+  selectedColor.style.boxShadow = null;
   event.target.classList.add('selected');
+  event.target.style.boxShadow = '0 0 10px 5px red'
 }
 
 // Função que cria a paleta de cores
@@ -26,6 +28,7 @@ function createPalette() {
     if (index === 0) {
       newColor.style.backgroundColor = 'black';
       newColor.classList.add('selected');
+      newColor.style.boxShadow = '0 0 10px 5px red'
     } else {
       newColor.style.backgroundColor = generateRandomColor();
     }
@@ -80,6 +83,7 @@ const paletteContainer = document.querySelector('#palette-container');
 const btnClear = document.createElement('button');
 btnClear.innerText = 'Limpar';
 btnClear.id = 'clear-board';
+btnClear.style.cursor = 'pointer'
 paletteContainer.appendChild(btnClear);
 
 // Adiciona evento de clique ao botão de Limpar o quadro com a função que pinta todos os pixels da cor branca
@@ -101,6 +105,7 @@ paletteContainer.appendChild(inputBoardSize);
 // Cria o botão que cria o board
 const btnGenerateBoard = document.createElement('button');
 btnGenerateBoard.id = 'generate-board';
+btnGenerateBoard.style.cursor = 'pointer'
 btnGenerateBoard.innerText = 'VQV';
 paletteContainer.appendChild(btnGenerateBoard);
 
