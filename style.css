@@ -5,7 +5,7 @@
   font-family: 'Oleo Script', cursive;
   font-size: 3.5vw;
   text-align: center;
-  position: relative;
+  position: relative; 
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.86);
   min-width: 400px;
